@@ -6,7 +6,7 @@
     },
     "routes": [
       { "src": "/(.*)",  "dest": "/api/index.php" },
-      { "src": "/(.*)",  "dest": "/api/validar.php" },
+      { "src": "/validar.php",  "dest": "/api/validar.php" },
       { "src": "/(.*)",  "dest": "/api/abrir_chamado.php" },
       { "src": "/(.*)",  "dest": "/api/area_cliente.php" },
       { "src": "/(.*)",  "dest": "/api/chamado_post.php" },
