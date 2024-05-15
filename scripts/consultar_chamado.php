@@ -1,7 +1,7 @@
 <?php require_once 'liberar_sessao.php'; 
 
 $chamados=array();
-$arquivo=fopen('../../app_help_desk/chamado.help', 'r');
+$arquivo=fopen('chamado.help', 'r');
 
 $i=0;
 
@@ -38,7 +38,7 @@ fclose($arquivo);
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../imagens/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
 
@@ -82,7 +82,7 @@ fclose($arquivo);
              <?php }?>
 
               <div class="row mt-5">
-                <div class="col-6">
+                <div class="col-12 d-flex justify-content-center">
                   <button class="btn btn-lg btn-warning btn-block" type="submit" onclick="window.location.href='area_cliente.php'">Voltar</button>
                 </div>
               </div>

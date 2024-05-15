@@ -31,7 +31,7 @@ $_SESSION['autenticado']=false;
 		$_SESSION['is_admin']=$is_admin;
 		header('Location: area_cliente.php');
 	}else{
-		header('Location: index.php?Login=erro');
+		header('Location: ../index.php?Login=erro');
 	}
 	
 	

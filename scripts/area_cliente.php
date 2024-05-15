@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link  rel="stylesheet"  href="bootstrap/css/bootstrap.min.css">
+	<link  rel="stylesheet"  href="../bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Help desk-área cliente</title>
 
@@ -25,7 +25,7 @@
 
 	<nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="imagens/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../imagens/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
 
@@ -45,11 +45,11 @@
 			      <div class="card-header">Menu</div>
 			      <div class="card-body d-flex justify-content-around">
 							<a href="abrir_chamado.php">
-								<img src='imagens/formulario_abrir_chamado.png' class='icones'>
+								<img src='../imagens/formulario_abrir_chamado.png' class='icones'>
 							</a>
 
 							<a href="consultar_chamado.php">
-								<img src='imagens/formulario_consultar_chamado.png' class="icones">
+								<img src='../imagens/formulario_consultar_chamado.png' class="icones">
 							</a>
 						</div>
 				</div>

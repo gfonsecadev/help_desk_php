@@ -33,7 +33,7 @@
 				<div class="card">
 			      <div class="card-header">Login</div>
 			      <div class="card-body">
-					<form action="validar.php" method="POST" class="form-group">
+					<form action="scripts/validar.php" method="POST" class="form-group">
 						<input type="email" name='email' class="form-control mb-2" placeholder="Email" value="gilmar@gmail.com">
 						<input type="password" name="senha" class="form-control mb-3" placeholder="Senha" value="1234">
 						
